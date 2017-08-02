@@ -11,4 +11,4 @@ router.get('/login', function (req, res) {
   res.render('login')
 })
 
-moudle.exports = router;
+module.exports = router;

@@ -2,8 +2,8 @@ var express = require('express');
 var router = express.Router();
 
 // Get Homepage
-router.get('/', function(req, res){
+router.get('/', function (req, res) {
   res.render('index');
 });
 
-moudle.exports = router;
+module.exports = router;

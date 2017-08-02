@@ -15,7 +15,7 @@ mongoose.connect('mongodb://localhost/passportTest');
 var db = mongoose.connection;
 
 var routes = require('./routes/index');
-var routes = require('./routes/users');
+var users = require('./routes/users');
 
 // Init App
 var app = express();
